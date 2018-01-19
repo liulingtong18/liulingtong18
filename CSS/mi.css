@@ -1,0 +1,624 @@
+/*header*/
+.header {
+    background: #333;
+    font-size: 12px;
+    height: 40px
+}
+
+.content .header .nav-left, .content .header .nav-left li, .content .header .nav-right li{
+    float: left
+}
+
+.content .header .nav-right {
+    float: right
+}
+
+.content .header a {
+    text-decoration: none;
+    color: #b0b0b0;
+    display: block
+}
+
+.content .header .nav {
+    width: 1226px;
+    margin: 0 auto;
+    height: 40px;
+    clear: both
+}
+
+.content .header .a {
+    border-right: 1px solid black
+}
+
+.content .header .b {
+    margin: 13px 0;
+    padding: 0 6px
+}
+
+.content .header .item4 {
+    width: 100px;
+    height: 40px;
+    background: #424242 url("../img/09.icon.png") no-repeat 10px 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    line-height: 40px;
+    text-align: center
+}
+
+.content .header a:hover {
+    color: white
+}
+
+.content .header .item4:hover {
+    color: red;
+    background: #fff url("../img/10.icon.png") no-repeat 10px 5px;
+}
+
+/*header end*/
+
+/*nav1*/
+.nav1 {
+    width: 100%;
+    height: 100px;
+    clear: both;
+    position: relative
+}
+
+.nav1 li {
+    float: left;
+}
+
+.nav1 .logo {
+    position: absolute;
+    top: 22.5px;
+    left: 210px
+}
+
+.nav1 a {
+    line-height: 100px;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px
+}
+
+.nav1 a:hover {
+    color: red
+}
+
+.nav1 .a {
+    margin-left: 450px
+}
+
+.nav1 .t {
+    height: 50px;
+    width: 245px;
+}
+
+.nav1 .s {
+    height: 52px;
+    width: 50px;
+    display: inline-block;
+    border: 1px solid #f0f0f0
+}
+
+.nav1 form {
+    margin-top: 25px
+}
+
+/*nav1 end*/
+
+/*main1*/
+.main1 {
+    width: 1226px;
+    clear: both;
+    position: relative;
+}
+
+.main1 .pic img {
+    margin-left: 210px
+}
+
+.main1 .sider {
+    width: 234px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 210px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.main1 .sider li {
+    width: 234px;
+    height: 42px;
+    line-height: 42px
+}
+
+.main1 .sider li a {
+    width: 214px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative
+}
+
+.main1 .sider li span {
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+
+.main1 .sider a:hover {
+    background: #ff6700
+}
+
+.main1 .sider .h {
+    margin-top: 20px
+}
+/*main结束*/
+
+/*home开始*/
+.home-hero{
+    width: 1226px;
+    margin: 20px auto 0;
+}
+.home-hero-left{
+    float: left;
+    width: 225px;
+    padding: 5px;
+    background: #5f5750;
+    height:160px;
+
+
+}
+.home-hero-left li{
+    float: left;
+    width: 68px;
+    height: 70px;
+    margin: 5px 5px 15px  0;
+    border: 1px solid rgba(255,255,255,0.7);
+}
+
+.home-hero-left .bod-top{
+    border-top: none;
+}
+.home-hero-left .bod-right{
+    border-right:none;
+
+}
+.home-hero-left .bod-left{
+    border-left:none ;
+}
+.home-hero-left .bod-bottom{
+    border-bottom: none;
+}
+.home-hero-left li P a{
+    color: rgba(255,255,255,.7);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-left: 10px;
+
+
+}
+.home-hero-left li P a:hover{
+    color: white;text-decoration: none;
+}
+
+.home-hero-right{
+    float: right;
+}
+.home-hero-right li{
+    float: left;
+    margin-right: 15px;
+}
+.home-hero-right .margin-right{
+    margin-right: 0;
+}
+.home-hero .home-hero-right li img{
+    width: 316px;
+    height: 170px;
+}
+
+/*home结束*/
+
+/*明星单品开始*/
+
+.star-shop{
+    width: 1226px;
+    margin: 20px auto;
+    position: relative;
+}
+.star-shop h2{
+
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px ;
+    color: #333333;
+    font-weight: 200;
+}
+
+.star-shop .star-shop-right{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.star-shop .star-shop-right li{
+    float: left;
+    width:24px;
+    height: 16px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 3px 5px ;
+    text-align: center;
+}
+
+.star-shop .star-shop-shopping li{
+    float: left;
+    width:234px;
+    height: 300px;
+    padding-top: 39px;
+    margin-right: 14px;
+    text-align: center;
+    background: #fafafa;
+}
+.star-shop .star-shop-shopping .star-shop-last{
+    margin-right: 0;
+}
+.star-shop .star-shop-shopping li img  {
+    width: 160px;
+    height: 160px;
+
+}
+.star-shop .star-shop-shopping li h3{
+    margin: 0 20px 3px;
+
+}
+.star-shop .star-shop-shopping li h3 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #212121;
+}
+.star-shop .star-shop-shopping li p{
+    height: 18px;
+    margin: 0 20px 12px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.star-shop .star-shop-shopping li .price{
+    margin: 0;
+    color: #ff6709;
+    font-size:16px;
+}
+.bod-color-o{
+    border-top: 1px solid #ffac13;
+}.bod-color-g{
+    border-top: 1px solid #83c44e;
+}.bod-color-b{
+    border-top: 1px solid #2196f3;
+}.bod-color-r{
+    border-top: 1px solid #e53935;
+}.bod-color-gb{
+    border-top: 1px solid #00c0a5;
+}
+
+/*明星单品结束*/
+
+/*家电开始*/
+.house{
+    background: #f5f5f5;
+    padding: 60px 0;
+    position: relative;
+
+}
+.house-head,.house-body{
+
+    width: 1226px;
+    margin: 0 auto;
+}
+.house-head{
+    position: relative;
+}
+.house-head h2{
+    height: 58px;
+    line-height: 58px;
+    font-size: 22px ;
+    color: #333333;
+    font-weight: 200;
+
+}
+.house-head .more{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 280px;
+    padding-top: 16px;
+}
+.house-head .more li{
+    float: left;
+    margin-left: 30px;
+}
+.house-head .more li a{
+    font-size: 16px;
+    color: #424242;
+}
+.house-head .more li a:hover{
+    border-bottom: 2px solid #ff6700;
+    color: #ff6700;
+    text-decoration: none;
+}
+.house-body .house-body-left img{
+
+    width: 234px;
+    height: 614px;
+}
+.house-body .house-body-right{
+    position: absolute;
+    top: 118px;
+    left: 458px;
+}
+.house-body .house-body-right li {
+    width: 234px;
+    height: 246px;
+    padding: 34px 0 20px;
+    margin: 0 0 14px 14px;
+    text-align: center;
+    float: left;
+    background: #ffffff;
+}
+.house-body .house-body-right .spc span{
+    color: #b0b0b0;
+    text-decoration: line-through;
+    margin-left: 5px;
+
+}
+.house-body .house-body-right .last1{
+    height: 93px;
+    padding: 50px 0 0;
+    position: relative;
+}
+.house-body .house-body-right .last2{
+    padding-bottom: 16px;
+    height: 93px;
+}
+.house-body .house-body-right .last2 p{
+    color: #ff6700;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.house-body .house-body-right .last2 .more{
+    font-size: 18px;
+    color: #333333;
+    height: 93px;
+    padding: 0;
+}
+.house-body .house-body-right a:hover{
+    text-decoration: none;
+}
+.house-body .house-body-right .last1 img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.house-body .house-body-right li h3{
+    color:#333 ;
+    font-size: 14px;
+
+}
+.house-body .house-body-right li p{
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+}
+.house-body .house-body-right li img{
+    height: 150px;
+    width: 150px;
+}
+.house-body .house-body-right li .price{
+    margin: 0 10px 10px;
+    color: #ff6700;
+    font-size: 14px;
+}
+/*家电结束*/
+
+/*footer开始*/
+
+.footer .footer-service{
+    width: 1226px;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+    padding: 27px 0;
+}
+.footer .footer-service li{
+    height: 25px;
+    float: left;
+    width: 242px;
+    text-align: center;
+    line-height: 25px;
+    border-right:1px solid #e0e0e0;
+
+}
+.footer .footer-service .bod-last{
+    border-right:none
+}
+.footer .footer-service li a{
+    color: #616161;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.footer .footer-service li a:hover{
+    color: #ff0000;
+}
+.footer .footer-links{
+    width: 1226px;
+    height: 112px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+.footer .footer-links dl{
+    width: 160px;
+    height: 112px;
+    float:left;
+}
+.footer .footer-links dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.footer .footer-links dd{
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.footer .footer-links dd a{
+    text-decoration: none;
+    color: #757575;
+
+}
+.footer .footer-links dd a:hover{
+    color: #ff0000;
+}
+.footer .footer-links .footer-right{
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+    width: 252px;
+    float: right;
+}
+.footer .footer-links .footer-right .p1{
+    margin: 0 0 5px;
+    font-size: 22px;
+    color: #ff6700;
+}
+.footer .footer-links .footer-right .p2{
+    font-size: 12px;
+    margin: 0 0 5px;
+}
+.footer .footer-links .footer-right a{
+    color: #ff6700;
+    text-decoration: none;
+    border:1px solid #ff6700;
+    background: #fff;font-size: 12px;
+    width: 118px;
+    height: 28px;
+    display: block;
+    margin: 0 auto;
+    line-height: 28px;
+
+}
+.footer .footer-links .footer-right a:hover{
+    background: #ff6700;
+    color: #fff;
+}
+/*footer结束*/
+
+/*last开始*/
+.last{
+    background: #fafafa;
+    width: 1646px;
+    height: 106px;
+    padding: 30px 0;
+}
+.last .container{
+    margin: 0 auto;
+    width: 1226px;
+
+}
+.last .container li{
+    float:left ;
+}
+.last .container .container-second{
+    margin: 0 10px;
+}
+.last .container .sites li a{
+    font-size: 12px;
+    color: #757575;
+
+}
+.last .container .sites li a:hover{
+    text-decoration: none;
+    color: red;
+}
+.last .container .sites li span{
+    font-size: 12px;
+    margin: 0 3px ;
+    color: #757575;
+}
+.last .container .container-second p,a{
+    font-size: 12px;
+    line-height: 18px;
+    clear: left;
+    color:#b0b0b0;
+}
+.last .container p a:hover{
+    color: red;
+    text-decoration: none;
+}
+.last .container .container-third{
+    float: right;
+    height: 28px;
+    margin: 4px 0 0;
+}
+.last .container .container-third img{
+    width: auto;
+    height: 28px;
+
+}
+.last .slogan{
+    clear: both;
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    color: #888;
+
+}
+
+/*last结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

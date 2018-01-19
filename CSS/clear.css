@@ -1,0 +1,9 @@
+.clear-fix::after{
+    content:'';
+    width: 0;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
+}
