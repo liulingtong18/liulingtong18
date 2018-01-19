@@ -78,11 +78,13 @@
     line-height: 100px;
     color: black;
     text-decoration: none;
-    padding-right: 20px
+    padding-right: 20px;
+    font-size: 16px;
 }
 
 .nav1 a:hover {
-    color: red
+    color: red;
+    text-decoration: none;
 }
 
 .nav1 .a {
@@ -100,10 +102,14 @@
     display: inline-block;
     border: 1px solid #f0f0f0
 }
+.nav1 .nav1-last{
+    margin-left: 70px;
+}
 
 .nav1 form {
     margin-top: 25px
 }
+
 
 /*nav1 end*/
 
