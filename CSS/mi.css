@@ -1,115 +1,101 @@
 /*header*/
-.header {
+.header{
+    height: 40px;
     background: #333;
-    font-size: 12px;
-    height: 40px
-}
-
-.content .header .nav-left, .content .header .nav-left li, .content .header .nav-right li{
-    float: left
-}
-
-.content .header .nav-right {
-    float: right
-}
-
-.content .header a {
-    text-decoration: none;
     color: #b0b0b0;
-    display: block
 }
-
-.content .header .nav {
-    width: 1226px;
+.header .nav{
     margin: 0 auto;
-    height: 40px;
-    clear: both
+    width: 1226px;
+    line-height: 38px;
+}
+.header .nav .nav-left {
+    float: left;
+}
+.header .nav .nav-left li{
+    float: left;
+}
+.header .nav  a:hover{
+    text-decoration: none;
+    color: white;
+}
+.header .nav .nav-right{
+    float: right;
+}
+.header .nav .nav-right li{
+    float: left;
+}
+.header .nav  span{
+    margin: 5px;
+    font-size: 10px;
+    color: #5f5750;
+}
+.header .nav .shopping{
+    padding: 0 30px;
 }
 
-.content .header .a {
-    border-right: 1px solid black
+.header .nav .nav-right .shopping a:hover{
+    color:red;
 }
-
-.content .header .b {
-    margin: 13px 0;
-    padding: 0 6px
-}
-
-.content .header .item4 {
-    width: 100px;
-    height: 40px;
-    background: #424242 url("../img/09.icon.png") no-repeat 10px 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-    line-height: 40px;
-    text-align: center
-}
-
-.content .header a:hover {
-    color: white
-}
-
-.content .header .item4:hover {
-    color: red;
-    background: #fff url("../img/10.icon.png") no-repeat 10px 5px;
-}
-
 /*header end*/
 
 /*nav1*/
-.nav1 {
-    width: 100%;
+.nav1{
+    width: 1226px;
     height: 100px;
-    clear: both;
-    position: relative
+    margin:0 auto ;
 }
-
-.nav1 li {
+.nav1 .logo{
     float: left;
+    width: 62px;
+    height: 55px;
+    margin-top: 22px;
 }
-
-.nav1 .logo {
-    position: absolute;
-    top: 22.5px;
-    left: 210px
+.nav1 .nav-main{
+    float: left;
+    width: 680px;
+    height: 88px;
+    padding:12px 0 0 170px ;
 }
-
-.nav1 a {
-    line-height: 100px;
-    color: black;
-    text-decoration: none;
-    padding-right: 20px;
+.nav1 .nav-main li{
+    float: left;
+    height: 24px;
+    padding: 26px 10px 38px;
+}
+.nav1 .nav-main li a{
+    color: #333;
     font-size: 16px;
 }
-
-.nav1 a:hover {
+.nav1 .nav-main li a:hover{
     color: red;
     text-decoration: none;
 }
-
-.nav1 .a {
-    margin-left: 450px
-}
-
-.nav1 .t {
+.nav1 .search{
+    float: left;
+    margin: 25px 0 0 ;
+    width: 296px;
     height: 50px;
-    width: 245px;
 }
+.nav1 .search form{
+    height: 50px;
+    position: relative;
+}
+.nav1 .search input{
+    height: 47px;
+    width: 223px;
+    border:1px solid #333;
+    padding: 0 10px;
 
-.nav1 .s {
-    height: 52px;
-    width: 50px;
-    display: inline-block;
-    border: 1px solid #f0f0f0
 }
-.nav1 .nav1-last{
-    margin-left: 70px;
-}
+.nav1 .search button{
+    width: 51px;
+    height: 49px;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 
-.nav1 form {
-    margin-top: 25px
 }
-
 
 /*nav1 end*/
 
@@ -118,18 +104,16 @@
     width: 1226px;
     clear: both;
     position: relative;
+    margin: 0 auto;
 }
 
-.main1 .pic img {
-    margin-left: 210px
-}
 
 .main1 .sider {
     width: 234px;
     height: 460px;
     position: absolute;
     top: 0;
-    left: 210px;
+    left: 0;
     background: rgba(0, 0, 0, 0.6)
 }
 
@@ -316,13 +300,9 @@
 .house{
     background: #f5f5f5;
     padding: 60px 0;
-    position: relative;
-
-}
-.house-head,.house-body{
-
     width: 1226px;
-    margin: 0 auto;
+    margin:0 auto;
+
 }
 .house-head{
     position: relative;
@@ -360,10 +340,12 @@
     width: 234px;
     height: 614px;
 }
+.house-body .house-body-left{
+    float: left;
+}
 .house-body .house-body-right{
-    position: absolute;
-    top: 118px;
-    left: 458px;
+   float: left;
+    width:992px
 }
 .house-body .house-body-right li {
     width: 234px;
